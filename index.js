@@ -3,7 +3,7 @@ const { Pool } = require("pg");
 const app = express();
 const PORT = 3000;
 
-//conexao com o banco de dados
+//conexao com o banco de dados pg
 const pool = new Pool({
   user: "postgres",
   host: "localhost",
